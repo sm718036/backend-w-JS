@@ -39,9 +39,7 @@ const userSchema = new Schema(
     // ],
     password: {
       type: String,
-      required: [true, "Password is required"],
-      minlength: 8,
-      maxlength: 100,
+      required: [true, "Password is required"]
     },
     refreshToken: {
       type: String,
